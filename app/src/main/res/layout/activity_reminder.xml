@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ReminderActivity">
+
+    <TextView
+        android:id="@+id/txtusern"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="What's Your Reminder?"
+        android:textColor="#444545"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#9CF1E7E7"
+        android:hint="Ex : water"
+        android:inputType="textShortMessage"
+        android:minHeight="48dp"
+        android:shadowColor="@color/colorPrimary"
+        android:singleLine="true"
+        android:textColor="#AD03979D"
+        android:textColorHint="#8103979D"
+        tools:ignore="TextContrastCheck" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="335dp"
+        android:layout_height="400dp"
+        android:amPmBackgroundColor="@color/white"
+        android:amPmTextColor="@color/white"
+        android:background="@color/white"
+        android:headerBackground="@color/colorPrimary"
+        android:numbersBackgroundColor="@color/colorPrimary"
+        android:numbersTextColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/setBtn"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="set"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="cancel"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

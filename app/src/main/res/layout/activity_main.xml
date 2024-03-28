@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/yourbook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/bookdata"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="24dp"
+        android:text="-Your Booking Data"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/yourbook" />
+
+    <ImageView
+        android:id="@+id/cloverimg"
+        android:elevation="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clover"
+        android:layout_marginEnd="340dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        tools:ignore="ContentDescription"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:id="@+id/splashtext"
+        android:elevation="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="200dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="#fff"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uwel"
+            android:textColor="#fff"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hometext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="85dp"
+        android:elevation="6dp"
+        android:gravity="start"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/explore"
+            android:textColor="#A3009688"
+            android:textSize="31sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="@string/design_with_user_name"
+            android:textColor="#C901675D"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <!--Menu-->
+    <LinearLayout
+        android:id="@+id/menus"
+        android:layout_width="322dp"
+        android:layout_height="322dp"
+        android:layout_marginTop="340dp"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--second raw-->
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="167dp"
+            android:layout_marginEnd="50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="70dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bookappo"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/bookcon"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="134dp"
+                    android:layout_height="82dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:shadowColor="#A8A8A8"
+                    android:text="@string/books"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#7A009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="106dp"
+                android:layout_height="117dp"
+                android:layout_marginEnd="70dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/dietplan"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/biton"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:shadowColor="#A8A8A8"
+                    android:text="@string/bitcoin"
+                    android:textColor="#7A009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="311dp"
+            android:layout_height="154dp"
+            android:layout_marginEnd="50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="131dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="70dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/reminder"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/bellcon"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="114dp"
+                    android:layout_height="60dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/notify"
+                    android:textColor="#7A009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="70dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/aboutus"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/bugcon"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="65dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/beport"
+                    android:textColor="#7A009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bgapp"
+        android:layout_width="580dp"
+        android:layout_height="710dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/logotake"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:filterTouchesWhenObscured="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

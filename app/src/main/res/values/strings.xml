@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">OptimumHealth</string>
+    <string name="username">Username</string>
+    <string name="Password" />
+    <string name="usern">Username</string>
+    <string name="userp">Password</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="button">Button</string>
+    <string name="signup">Signup</string>
+    <string name="email">email</string>
+    <string name="loginhere">Already have an Account? <u>login</u></string>
+    <string name="phone">Phone</string>
+    <string name="Phone">Phone</string>
+    <string name="signuphere">signup here</string>
+    <string name="todo">TODO</string>
+    <string name="btn">Login</string>
+    <string name="loginbtn">login</string>
+    <string name="signupbtn">Signup</string>
+    <string name="todo2">TODO</string>
+    <string name="signuptext">create a new Account? <u>Signup</u></string>
+    <string name="explore">Optimum Health</string>
+    <string name="design_with_user_name">Your Health in Your Hand</string>
+    <string name="beport">About Us</string>
+    <string name="notify">Reminder</string>
+    <string name="bitcoin">Your Diet</string>
+    <string name="books">Appointment Booking</string>
+    <string name="welcome">welcome</string>
+    <string name="uwel">Optimum Health</string>
+    <string name="back">BACK</string>
+
+    <string-array name="doctor_etype">
+        <item>Family Physicians</item>
+        <item>Allergists</item>
+        <item>Dentist</item>
+        <item>Surgeon</item>
+        <item>Cardiologists</item>
+    </string-array>
+
+    <string-array name="doctor_type">
+        <item>Family Physicians</item>
+        <item>Allergists</item>
+        <item>Dentist</item>
+        <item>Surgeon</item>
+        <item>Cardiologists</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Weeks</item>
+        <item>Months</item>
+        <item>Years</item>
+    </string-array>
+
+    <!--    <string-array name="dr_type">-->
+    <!--        <item>Family Physicians</item>-->
+    <!--        <item>Allergists</item>-->
+    <!--        <item>Dentist</item>-->
+    <!--        <item>Surgeon</item>-->
+    <!--        <item>Cardiologists</item>-->
+    <!--    </string-array>-->
+    <string name="welcomerm"><u>Welcome to Remind Me</u></string>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <string name="aboutusContent">
+
+        <b>This is How We Works : </b>\n\nAt optimum health we are committed to providing our patients with advanced medical and surgical treatments with access to the latest treatment technology available.\n\n Our reputation for outstanding care and family-like atmosphere,together with advanced medical technology and facilities ensures we attract leading consultants and specialists from the industry to work with us. All our clinicians are board-certified and come with very high credentials within their field of speciality. Many of our consultant doctors are internationally recognised as well. Whilst practicing at our facilities, our consultants comply with Clinical Governance system that ensures adequate patient care. All our nurses are fully qualified and registered with the Nursing Council.\n\n Optimum health is committed to providing high quality, cost-efficient healthcare in its hospitals and clinics.We are able to provide free, no-obligation quotes for a wide range of treatments, consultations and tests to our self-pay patients. We also provide care to insurance patients.\n\n
+        Address   : \n1208 Ganesh Glory,\n
+                    Jagatpur Road,\n
+                    Gota, S.G. Highway,\n
+                    Ahmedabad - 382481\n
+                    Gujarat, India\n\n
+         Mobile    : 8488838308\n\n
+    </string>
+
+
+</resources>
